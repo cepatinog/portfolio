@@ -9,7 +9,7 @@ export default function MainLayout({ children }: LayoutProps) {
   return (
     <div>
       <Navbar />
-      <main className="p-10">{children}</main>
+      <main className="pt-16">{children}</main> {/* Agregamos padding-top */}
     </div>
   );
 }
